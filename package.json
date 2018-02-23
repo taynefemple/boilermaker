@@ -4,6 +4,8 @@
   "description": "building site from scratch",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
+    "start:dev": "webpack --watch & nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wayne Temple",
@@ -11,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "nodemon": "^1.15.1",
     "path": "^0.12.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

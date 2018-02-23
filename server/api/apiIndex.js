@@ -1,4 +1,4 @@
-const router = require('express').Router;
+const router = require('express').Router();
 const stuff = require('./stuff')
 
 router.use('/stuff', stuff);
