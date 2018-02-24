@@ -12,8 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "connect-session-sequelize": "^5.2.0",
+    "connect-session-store": "0.0.1",
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "lodash": "^4.17.5",
     "nodemon": "^1.15.1",
+    "passport": "^0.4.0",
     "path": "^0.12.7",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
